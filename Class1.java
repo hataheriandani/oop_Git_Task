@@ -1,15 +1,13 @@
 package madool2;
-
+//This is an example of group coding
 import java.util.Scanner;
 
 public class Class1 {
-	//public static void fever(String name , int tempeture) {
-	//	System.out.println(name+ "the tempeture is :"+tempeture);
-	//}
+
 	public static void result(String sub,int temp) {
-		
+		//Finland is a cold country
 		if (sub.equals("human")){
-			if(temp>37) {
+			if(temp>35) {
 				
 				System.out.println("The subject has a fever");	}
 			else {
@@ -38,7 +36,7 @@ public class Class1 {
 	//	int my_temp = 40;
 	//	fever("horse ",my_temp);
 		System.out.println("Fever limits");
-		System.out.println("- human 37");
+		System.out.println("- human 35");
 		System.out.println("- dag 39");
 		System.out.println("- horse 38");
 		 Scanner sc = new Scanner(System.in);
