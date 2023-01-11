@@ -1,10 +1,7 @@
 package madool2;
 //This is an example of group coding
 import java.util.Scanner;
-
-
-
-
+//Finland is a good country.
  
 public class Class1 {
 
